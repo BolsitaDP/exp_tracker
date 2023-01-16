@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+:root {
+  --red: #e5707e;
+  --purple: #6155a6;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 4em 0;
+}
+
+.bg-red {
+  background-color: var(--red);
+}
+
+.bg-purple {
+  background-color: var(--purple);
+}
